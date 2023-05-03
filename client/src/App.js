@@ -1,11 +1,11 @@
 import { Route } from 'react-router-dom';
 import './App.css';
-
 import countryDetail from './components/countryDetail';
 import CreateActivity from './components/createActivity';
-
 import Home from './components/home';
 import LandingPage from './components/landinPage/LandingPage'
+import axios from 'axios'
+axios.defaults.baseURL= `http://localhost:3001`
 
 function App() {
   return (
