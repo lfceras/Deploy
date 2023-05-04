@@ -5,7 +5,7 @@ import CreateActivity from './components/createActivity';
 import Home from './components/home';
 import LandingPage from './components/landinPage/LandingPage'
 import axios from 'axios'
-axios.defaults.baseURL= `http://localhost:3001`
+axios.defaults.baseURL= `https://deploy-production-8057.up.railway.app/`
 
 function App() {
   return (
